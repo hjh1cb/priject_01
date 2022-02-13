@@ -1,0 +1,65 @@
+<html>
+ 	<head><head>
+		 <style>
+			.p{
+				font-size: 40px;
+				font-family: Arial, Helvetica, sans-serif;
+				font-weight: bold;
+				text-shadow: -1px -1px red,
+										 1px 1px blue;
+				/* text-shadow: 0 0 0.2em #f87,
+										 0 0 0.2em yellow; */
+			} 
+			dl{
+				width: 240px;
+				border: solid 1px #ccc;
+			}
+			dt{
+				padding: 8px 8px;
+				/*背景图*/
+				font-size: 13px;
+				text-align: left;
+				font-weight: bold;
+				color: #71790c;
+				margin-bottom: 12px;
+				border-bottom: solid 1px #efefef;
+			}
+			.p1{
+				font-size: 0.78em;
+				height: 1.5em;
+				width: 220px;
+				padding: 2px 2px 2px 18px;
+				margin:2px 0;
+				white-space: nowrap;/*禁止换行*/
+				overflow: hidden;/*禁止文本溢出显示*/
+				text-overflow: ellipsis;
+				/*
+					clip	剪切文本。
+					ellipsis	显示省略符号 ... 来代表被修剪的文本。
+					string	使用给定的字符串来代表被修剪的文本。
+					initial	设置为属性默认值。
+					inherit	从父元素继承该属性值。
+				*/
+			}
+			div{
+				width: 200px;
+				height: 200px;
+				background:-moz-linear-gradient(left,red,orange,yellow,green,rgb(187, 226, 187),blue,rgb(89, 0, 255));
+			}
+		 </style>
+	<h1 style="color: red;">hello world</h1>
+	<h2>hello world</h2>
+	<h3>hello world</h3>
+
+	<p class="p">Text Shadow, <br>你好世界</p>
+	<dl>
+		<dt>电竞事业</dt>
+		<p class="p1">电竞事业电竞事业电竞事业</p>
+		<p class="p1">电竞事业电竞事业</p>
+		<p class="p1">电竞事业电竞事业</p>
+		<p class="p1">电竞事业电竞事业</p>
+		<p class="p1">电竞事业电竞事业电竞事业</p>
+	</dl>
+	<div></div>
+	</body>
+</html>
